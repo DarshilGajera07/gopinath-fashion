@@ -1,7 +1,7 @@
-  import React from 'react'
-  import Link from 'next/link'
+import React from 'react'
+import Link from 'next/link'
 
-const Mugs = () => {
+const stickers = () => {
   return (
     <div>
       
@@ -111,4 +111,4 @@ const Mugs = () => {
   )
 }
 
-export default Mugs
+export default stickers
