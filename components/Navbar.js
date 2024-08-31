@@ -44,7 +44,7 @@ const Navbar = () => {
             <div className='item flex my-5'>
               <div className='w-2/3 font-semibold'>Tshirts</div>
               <div className='flex items-center justify-center w-1/3 font-semibold text-lg'>
-              <AiFillMinusCircle className='cursor-pointer'/><span className='mx-2'> 1 </span> <AiFillPlusCircle className='cursor-pointer'/>  
+                <AiFillMinusCircle className='cursor-pointer' /><span className='mx-2'> 1 </span> <AiFillPlusCircle className='cursor-pointer' />
               </div>
             </div>
           </li>
@@ -67,8 +67,11 @@ const Navbar = () => {
             </div>
           </li>
         </ol>
-        
-    <button className="flex mt-16 text-white bg-pink-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"><BsFillBagCheckFill className='m-1'/>Checkout</button>
+
+        <div className='flex'>
+          <button className="flex mr-2 text-white bg-pink-500 border-0 py-2 px-2 focus:outline-none hover:bg-indigo-600 rounded text-sm"><BsFillBagCheckFill className='m-1' />Checkout</button>
+          <button className="flex mr-2 text-white bg-pink-500 border-0 py-2 px-2 focus:outline-none hover:bg-indigo-600 rounded text-sm">Clear Cart</button>
+        </div>
       </div>
 
     </div>
